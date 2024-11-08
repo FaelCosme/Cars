@@ -1,3 +1,4 @@
+# senha: faelgostoso
 from django.db import models
 
 class Car(models.Model):
@@ -7,4 +8,3 @@ class Car(models.Model):
     filename = models.CharField(max_length=50, null=False)
     
 # Create your models here.
-
