@@ -3,7 +3,7 @@ from aplicativo.models import Car
 
 class CarFilter(admin.ModelAdmin):
     list_display = ("id", "user", "model", "brand", "year")
-    list_display_links = ("id", "user", "model", "brand", "year")
+    list_display_links = ("id", "model", "brand", "year")
     list_filter = ("model", "year")
     search_fields = ("model", "brand")
     
